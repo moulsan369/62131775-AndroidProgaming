@@ -20,4 +20,8 @@ public class MainActivity extends AppCompatActivity {
     public void changeToEx_2(View view) {
         setContentView(R.layout.ex_2);
     }
+
+    public void changeToEX_3(View view) {
+        setContentView(R.layout.ex_3);
+    }
 }
