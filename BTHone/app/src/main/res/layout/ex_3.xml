@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:autofillHints=""
         android:ems="10"
-        android:hint="@string/app_name"
+        android:hint="Write the number here"
         android:inputType="text"
         android:minHeight="48dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -56,7 +56,7 @@
         android:layout_height="wrap_content"
         android:autofillHints=""
         android:ems="10"
-        android:hint="@string/app_name"
+        android:hint="Write the number here"
         android:inputType="text"
         android:minHeight="48dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -77,7 +77,9 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.231" />
+        app:layout_constraintVertical_bias="0.231"
+        tools:ignore="HardcodedText"
+        android:onClick="XulyCong"/>
 
     <TextView
         android:id="@+id/txt_kq_ex3"
@@ -89,7 +91,8 @@
         app:layout_constraintHorizontal_bias="0.136"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.324" />
+        app:layout_constraintVertical_bias="0.324"
+        tools:ignore="HardcodedText" />
 
     <EditText
         android:id="@+id/viewKq"
@@ -104,6 +107,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.315"
-        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+        tools:ignore="Autofill,MissingConstraints,SpeakableTextPresentCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
