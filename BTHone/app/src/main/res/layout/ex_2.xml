@@ -3,41 +3,52 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center|top">
+    android:gravity="center|top"
+    android:orientation="vertical">
 
 
     <Button
         android:id="@+id/btn_one_ex2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:background="@color/cardview_light_background"
         android:text="Nút số 1"
         android:textColor="@color/cardview_light_background"
         android:textSize="20sp"
-        tools:ignore="HardcodedText"
-        android:layout_marginTop="10dp"/>
+        tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/btn_two_ex2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:background="@color/cardview_light_background"
         android:text="Nút số 2"
         android:textColor="@color/cardview_light_background"
         android:textSize="20sp"
-        tools:ignore="HardcodedText"
-        android:layout_marginTop="10dp"/>
+        tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/btn_three_ex2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:background="@color/cardview_light_background"
         android:text="Nút số 3"
         android:textColor="@color/cardview_light_background"
         android:textSize="20sp"
-        tools:ignore="HardcodedText"
-        android:layout_marginTop="10dp"/>
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btn_back2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/adamina"
+        android:text="Back"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:onClick="backEx"
+        tools:ignore="HardcodedText" />
 
 </LinearLayout>
