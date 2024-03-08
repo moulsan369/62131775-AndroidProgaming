@@ -18,7 +18,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-
     public void changeToEx_1(View view) {
         setContentView(R.layout.ex_1);
     }
@@ -37,10 +36,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void backEx(View View){
-        Button backEx_3 = findViewById(R.id.btn3_back);
-        Button backEx_1 = findViewById(R.id.btn_back1);
-        Button backEx_2 = findViewById(R.id.btn_back2);
-
         Intent intent = new Intent(this, MainActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK);
         startActivity(intent);
