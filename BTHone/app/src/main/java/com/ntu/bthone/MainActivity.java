@@ -2,6 +2,7 @@ package com.ntu.bthone;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -62,7 +63,57 @@ public class MainActivity extends AppCompatActivity {
         viewKetQua.setText(String.valueOf(tong));
     }
 
+    EditText num_1, num_2, viewkq;
+    public void changeToEx_4(View view) {
+        setContentView(R.layout.ex_4);
 
+        num_1 = findViewById(R.id.edit_one);
+        num_2 = findViewById(R.id.edit_two);
+        viewkq = findViewById(R.id.edit_kqview);
+    }
 
+    public void phepCong(View view) {
+        phepTinh('+');
+    }
+
+    public void phepTru(View view) {
+        phepTinh('-');
+    }
+
+    public void phepNhan(View view) {
+        phepTinh('*');
+    }
+
+    public void phepChia(View view) {
+        phepTinh('/');
+    }
+
+    @SuppressLint("SetTextI18n")
+    private void phepTinh(char operator) {
+        double num1 = Double.parseDouble(num_1.getText().toString());
+        double num2 = Double.parseDouble(num_2.getText().toString());
+        double result = 0;
+
+        switch (operator) {
+            case '+':
+                result = num1 + num2;
+                break;
+            case '-':
+                result = num1 - num2;
+                break;
+            case '*':
+                result = num1 * num2;
+                break;
+            case '/':
+                if (num2 != 0) {
+                    result = num1 / num2;
+                } else {
+                    viewkq.setText("Chia hem được");
+                    return;
+                }
+                break;
+        }
+        viewkq.setText(String.valueOf(result));
+    }
 }
 
