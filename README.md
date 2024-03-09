@@ -11,7 +11,7 @@
 
 ## 3. EX 3 [Simpple sum App](https://github.com/moulsan369/62131775-AndroidProgaming/blob/main/BTHone/app/src/main/res/layout/ex_3.xml).
 
-## 4. EX 4 [Simple Calculation ()](https://github.com/moulsan369/62131775-AndroidProgaming/blob/main/BTHone/app/src/main/res/layout/ex_4.xml).
+## 4. EX 4 [Simple Calculation (sử dụng Constrainst Layout)](https://github.com/moulsan369/62131775-AndroidProgaming/blob/main/BTHone/app/src/main/res/layout/ex_4.xml).
 
 ## 5. LISTVIEW [My waifu](https://github.com/moulsan369/62131775-AndroidProgaming/tree/main/BTonclass/app/src/main).
 
