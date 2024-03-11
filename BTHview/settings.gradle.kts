@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "My Waifu"
 include(":app")
+ 
