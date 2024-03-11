@@ -13,7 +13,7 @@
 
 ## 4. EX 4 [Simple Calculation (sử dụng Constrainst Layout)](https://github.com/moulsan369/62131775-AndroidProgaming/blob/main/BTHone/app/src/main/res/layout/ex_4.xml).
 
-## 5. LISTVIEW [My waifu](https://github.com/moulsan369/62131775-AndroidProgaming/tree/main/BTonclass/app/src/main).
+## 5. LISTVIEW [My waifu](https://github.com/moulsan369/62131775-AndroidProgaming/tree/main/BTHview/app/src/main).
 
 ## 6. EX 5 [Simple Calculation (sử dụng ẩn danh và linerlyout)](https://github.com/moulsan369/62131775-AndroidProgaming/tree/main/BTHtwo/app/src/main/java/com/ntu/bthtwo).
 
