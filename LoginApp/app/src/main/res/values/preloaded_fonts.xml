@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/abhaya_libre</item>
+        <item>@font/adamina</item>
+        <item>@font/aguafina_script</item>
+        <item>@font/alex_brush</item>
+        <item>@font/allura</item>
+        <item>@font/architects_daughter</item>
+        <item>@font/cormorant_infant_light</item>
+        <item>@font/sofia</item>
+    </array>
+</resources>
