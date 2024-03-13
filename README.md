@@ -17,3 +17,5 @@
 
 ## 6. EX 5 [Simple Calculation (sử dụng ẩn danh và linerlyout)](https://github.com/moulsan369/62131775-AndroidProgaming/tree/main/BTHtwo/app/src/main/java/com/ntu/bthtwo).
 
+## 7. Login App [Trang Đăng Nhập](https://github.com/moulsan369/62131775-AndroidProgaming/tree/main/LoginApp/app/src/main)
+
