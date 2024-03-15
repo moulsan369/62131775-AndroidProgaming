@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
                 if (!newName.isEmpty()) {
                     dsWF.add(newName);
                     adapter.notifyDataSetChanged();
-                    editText.setText(""); // Clear EditText after adding
+                    editText.setText("");
                 } else {
                     Toast.makeText(MainActivity.this, "Please enter a name", Toast.LENGTH_SHORT).show();
                 }
