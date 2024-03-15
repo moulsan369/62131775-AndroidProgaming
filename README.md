@@ -15,7 +15,7 @@
 <img src="https://github.com/moulsan369/62131775-AndroidProgaming/blob/main/images/ex4.jpg" alt="ex3" width="150" />
 
 ## 4. EX 4 [Simple Calculation (sử dụng Constrainst Layout)](https://github.com/moulsan369/62131775-AndroidProgaming/blob/main/BTHone/app/src/main/res/layout/ex_4.xml).
-<img src="https://github.com/moulsan369/62131775-AndroidProgaming/blob/main/images/ex5.jpg" alt="ex4" width="1500" />
+<img src="https://github.com/moulsan369/62131775-AndroidProgaming/blob/main/images/ex5.jpg" alt="ex4" width="150" />
 
 ## 5. LISTVIEW [My waifu](https://github.com/moulsan369/62131775-AndroidProgaming/tree/main/BTHview/app/src/main).
 <img src="https://github.com/moulsan369/62131775-AndroidProgaming/blob/main/images/1.PNG" alt="listview" width="150" />
