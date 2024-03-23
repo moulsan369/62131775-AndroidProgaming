@@ -1,6 +1,8 @@
 package com.ntu.coffehouse.models;
 
-public class Country {
+import android.app.Activity;
+
+public class Country extends Activity {
     String imageFile;
     int numberPeoples;
 
