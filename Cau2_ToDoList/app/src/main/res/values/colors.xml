@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="lightblue">#4DA6FF</color>
+    <color name="aqua">#00FFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="green">#008000</color>
+    <color name="Autum">#763626</color>
+    <color name="shadow">#2A3132</color>
+    <color name="Mist">#90AFC5</color>
+</resources>
