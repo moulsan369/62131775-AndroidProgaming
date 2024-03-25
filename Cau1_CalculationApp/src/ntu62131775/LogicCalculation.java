@@ -128,7 +128,7 @@ public class LogicCalculation extends JFrame {
     }
 
     
-    private class HomeButtonListener implements ActionListener {
+    public class HomeButtonListener implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
             Calculation mainFrame = new Calculation();

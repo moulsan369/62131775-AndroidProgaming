@@ -12,6 +12,8 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.border.EmptyBorder;
 
+import ntu62131775.LogicCalculation.HomeButtonListener;
+
 public class Bmi extends JFrame {
 
     private static final long serialVersionUID = 1L;
@@ -67,11 +69,18 @@ public class Bmi extends JFrame {
         txtResult.setFont(new Font("Times New Roman", Font.PLAIN, 12));
         contentPane.add(txtResult);
         txtResult.setColumns(10);
+        
+        JButton btnHomeCal = new JButton("Trang chủ");
+        btnHomeCal.setFont(new Font("Times New Roman", Font.PLAIN, 12));
+        btnHomeCal.setBounds(335, 227, 89, 23);
+        contentPane.add(btnHomeCal);
 
         JButton btnClear = new JButton("Clear Data");
         btnClear.setBounds(120, 200, 100, 23);
         btnClear.setFont(new Font("Times New Roman", Font.PLAIN, 12));
         contentPane.add(btnClear);
+        
+        btnHomeCal.addActionListener(new HomeButtonListener());
 
         btnCalculate.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
@@ -84,6 +93,15 @@ public class Bmi extends JFrame {
                 clearData();
             }
         });
+    }
+    
+    private class HomeButtonListener implements ActionListener {
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            Calculation mainFrame = new Calculation();
+            mainFrame.setVisible(true);
+            dispose(); 
+        }
     }
 
     private void calculateBMI() {

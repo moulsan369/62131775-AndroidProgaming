@@ -98,17 +98,5 @@ public class Swing extends JFrame {
         });
     }
 
-    public static void main(String[] args) {
-        EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                try {
-                    Swing frame = new Swing();
-                    frame.setVisible(true);
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-            }
-        });
-    }
 }
 
