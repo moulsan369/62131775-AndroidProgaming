@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+
+    <EditText
+        android:id="@+id/txt_Edit"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:background="@drawable/round_grey">
+
+    </EditText>
+    <FrameLayout
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_grey">
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/spiner_day"
+            android:layout_width="150dp"
+            android:layout_height="40dp">
+
+        </androidx.appcompat.widget.AppCompatSpinner>
+
+
+    </FrameLayout>
+    
+
+    <ImageView
+        android:id="@+id/img_delete"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        app:srcCompat="@drawable/icondelete"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="5dp"
+        tools:ignore="ContentDescription">
+
+    </ImageView>
+    
+</LinearLayout>
