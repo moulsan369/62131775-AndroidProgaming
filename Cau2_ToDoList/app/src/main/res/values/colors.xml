@@ -10,4 +10,8 @@
     <color name="Autum">#763626</color>
     <color name="shadow">#2A3132</color>
     <color name="Mist">#90AFC5</color>
+    <color name="whiteblue">#BCFEFE</color>
+    <color name="light">#2D99AE</color>
+    <color name="blue">#0c6776</color>
+    <color name="darkblue">#001c44</color>
 </resources>

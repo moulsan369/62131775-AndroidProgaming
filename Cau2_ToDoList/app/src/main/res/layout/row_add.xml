@@ -7,7 +7,7 @@
     android:layout_height="wrap_content"
     android:paddingTop="5dp"
     android:paddingBottom="5dp"
-    android:background="@color/Autum">
+    android:background="@color/darkblue">
 
     <EditText
         android:id="@+id/txt_Edit"
@@ -19,7 +19,7 @@
         android:background="@drawable/round_grey"
         android:fontFamily="@font/adamina"
         android:importantForAutofill="no"
-        android:textColor="@color/Mist"
+        android:textColor="@color/black"
         tools:ignore="InefficientWeight,LabelFor,TextFields,SpeakableTextPresentCheck">
 
     </EditText>

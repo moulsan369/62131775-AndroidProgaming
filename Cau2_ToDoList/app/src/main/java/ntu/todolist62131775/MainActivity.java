@@ -1,10 +1,12 @@
 package ntu.todolist62131775;
 
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatSpinner;
 
 import android.annotation.SuppressLint;
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -55,13 +57,39 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item,daylist);
         spinerDay.setAdapter(arrayAdapter);
 
-        imgeDelete.setOnClickListener(v -> deleteView(appView));
+        imgeDelete.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showDeleteConfirmationDialog(appView);
+            }
+        });
 
 
         layoutList.addView(appView);
     }
 
+    private void showDeleteConfirmationDialog(final View viewToDelete) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("Xác nhận xóa");
+        builder.setMessage("Bạn có chắc chắn muốn xóa không?");
+        builder.setPositiveButton("Xóa", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                deleteView(viewToDelete);
+            }
+        });
+        builder.setNegativeButton("Không", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.dismiss();
+            }
+        });
+        AlertDialog dialog = builder.create();
+        dialog.show();
+    }
+
     private void deleteView(View view){
+
         layoutList.removeView(view);
     }
 
