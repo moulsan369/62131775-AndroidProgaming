@@ -27,6 +27,13 @@ public class Calculation extends JFrame {
 		contentPane.setLayout(null);
 		
 		JButton btnCalcu = new JButton("Calculation");
+		btnCalcu.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				LogicCalculation calcuFrame = new LogicCalculation();
+				calcuFrame.setVisible(true);
+				dispose(); 
+			}
+		});
 		btnCalcu.setFont(new Font("Times New Roman", Font.PLAIN, 12));
 		btnCalcu.setBounds(139, 21, 89, 23);
 		contentPane.add(btnCalcu);
@@ -34,6 +41,9 @@ public class Calculation extends JFrame {
 		JButton btnBmi = new JButton("BMI");
 		btnBmi.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				Bmi bmiFrame = new Bmi();
+		        bmiFrame.setVisible(true);
+		        dispose(); 
 			}
 		});
 		btnBmi.setFont(new Font("Times New Roman", Font.PLAIN, 12));
@@ -41,6 +51,14 @@ public class Calculation extends JFrame {
 		contentPane.add(btnBmi);
 		
 		JButton btnSwitch = new JButton("Switch");
+		
+		btnSwitch.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				Swing swingFrame = new Swing();
+				 swingFrame.setVisible(true);
+				 dispose(); 
+			}
+		});
 		btnSwitch.setFont(new Font("Times New Roman", Font.PLAIN, 12));
 		btnSwitch.setBounds(139, 109, 89, 23);
 		contentPane.add(btnSwitch);
