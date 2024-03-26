@@ -5,6 +5,17 @@
 # BÀI TẬP THỰC HÀNH ANDROID STUDIO
 
 
+
+## Câu 1 [Calculation](https://github.com/moulsan369/62131775-AndroidProgaming/tree/main/Cau1_CalculationApp/src/ntu62131775).
+<img src="https://github.com/moulsan369/62131775-AndroidProgaming/blob/main/images/cau-1a.PNG" alt="cau-1a" width="150" /> <img src="https://github.com/moulsan369/62131775-AndroidProgaming/blob/main/images/cau-1b.PNG" alt="cau-1b" width="150" /><img src="https://github.com/moulsan369/62131775-AndroidProgaming/blob/main/images/cau-1c.PNG" alt="cau-1c" width="150" /><img src="https://github.com/moulsan369/62131775-AndroidProgaming/blob/main/images/cau-1d1.PNG" alt="cau-1d1" width="150" /><img src="https://github.com/moulsan369/62131775-AndroidProgaming/blob/main/images/cau-1d2.PNG" alt="cau-1d2" width="150" />
+
+## Câu 2 [To Do List](https://github.com/moulsan369/62131775-AndroidProgaming/tree/main/Cau2_ToDoList/app/src/main).
+<img src="https://github.com/moulsan369/62131775-AndroidProgaming/blob/main/images/cau-2a.jpg" alt="cau-2a" width="150" /> <img src="https://github.com/moulsan369/62131775-AndroidProgaming/blob/main/images/cau-2b.jpg" alt="cau-2b" width="150" /> <img src="https://github.com/moulsan369/62131775-AndroidProgaming/blob/main/images/cau-2c.jpg" alt="cau-2c" width="150" />
+
+## Câu 1 [My profile](https://github.com/moulsan369/62131775-AndroidProgaming/tree/main/Cau3_profile/app/src/main).
+<img src="https://github.com/moulsan369/62131775-AndroidProgaming/blob/main/images/cau-3.jpg" alt="cau-1" width="150" />
+
+
 ## 1. EX 1 [Hello World](https://github.com/moulsan369/62131775-AndroidProgaming/blob/main/BTHone/app/src/main/res/layout/ex_1.xml).
 <img src="https://github.com/moulsan369/62131775-AndroidProgaming/blob/main/images/ex1.jpg" alt="ex" width="150" /> <img src="https://github.com/moulsan369/62131775-AndroidProgaming/blob/main/images/ex.jpg" alt="ex1" width="150" />
 
