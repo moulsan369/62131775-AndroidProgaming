@@ -38,3 +38,4 @@
 <img src="https://github.com/moulsan369/62131775-AndroidProgaming/blob/main/images/loginapp-1.jpg" alt="lo-1" width="150" /> <img src="https://github.com/moulsan369/62131775-AndroidProgaming/blob/main/images/hompage.jpg" alt="lo-2" width="150"> <img src="https://github.com/moulsan369/62131775-AndroidProgaming/blob/main/images/homepage-1.jpg" alt="lo-2" width="150">
 
 ## 8. RECYCLEVIEW APP [List danh sách du lịch](https://github.com/moulsan369/62131775-AndroidProgaming/tree/main/ListRecycView/app/src/main).
+<img src="https://github.com/moulsan369/62131775-AndroidProgaming/blob/main/images/listRecycV.jpg" alt="rec-1" width="150">
