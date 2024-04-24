@@ -40,4 +40,5 @@
 ## 8. RECYCLEVIEW APP [List danh sách du lịch](https://github.com/moulsan369/62131775-AndroidProgaming/tree/main/ListRecycView/app/src/main).
 <img src="https://github.com/moulsan369/62131775-AndroidProgaming/blob/main/images/listRecycV.jpg" alt="rec-1" width="150">
 
-## 9. EX RECYCVIEW LOVE LIST [Danh sách hẹn hò](https://github.com/moulsan369/62131775-AndroidProgaming/tree/main/LoveList/app/src/main).
+## 9. EX RECYCVIEW LOVE LIST [Danh sách người hẹn hò](https://github.com/moulsan369/62131775-AndroidProgaming/tree/main/LoveList/app/src/main).
+<img src="https://github.com/moulsan369/62131775-AndroidProgaming/blob/main/images/loveRecyc.jpg" alt="lov-1" width="150">
