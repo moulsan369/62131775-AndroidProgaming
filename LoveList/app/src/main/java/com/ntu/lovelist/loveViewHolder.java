@@ -17,10 +17,10 @@ public class loveViewHolder extends RecyclerView.ViewHolder {
                 .findViewById(R.id.txtName);
         txtDate
                 = (TextView)itemView
-                .findViewById(R.id.examDate);
+                .findViewById(R.id.txtDate);
         txtMessage
                 = (TextView)itemView
-                .findViewById(R.id.examMessage);
+                .findViewById(R.id.txtMessage);
         view = itemView;
     }
 }
