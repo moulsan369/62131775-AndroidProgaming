@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Navigation Drawel by Moul San</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+</resources>
