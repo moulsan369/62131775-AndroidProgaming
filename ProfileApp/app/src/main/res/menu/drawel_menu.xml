@@ -9,7 +9,7 @@
         <item
             android:id="@+id/user"
             android:icon="@drawable/user"
-            android:title="My Account" />
+            android:title="User" />
 
         <item
             android:id="@+id/home"
@@ -27,8 +27,5 @@
             android:title="gallery" />
 
     </group>
-
-
-
 
 </menu>
