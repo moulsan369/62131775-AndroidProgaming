@@ -47,4 +47,4 @@
 <img src="https://github.com/moulsan369/62131775-AndroidProgaming/blob/main/images/new-1.jpg" alt="new1" width="150"> <img src="https://github.com/moulsan369/62131775-AndroidProgaming/blob/main/images/new-2.jpg" alt="new2" width="150"> <img src="https://github.com/moulsan369/62131775-AndroidProgaming/blob/main/images/new-3.jpg" alt="new3" width="150">
 
 ## 11. NAVIGATION DRAWER [Profile cá nhân](https://github.com/moulsan369/62131775-AndroidProgaming/tree/main/ProfileApp/app/src).
-<img src="" alt="nav-pro" width="150">
+<img src="https://github.com/moulsan369/62131775-AndroidProgaming/blob/main/images/nav-pro.jpg" alt="nav-pro" width="150">
