@@ -45,3 +45,6 @@
 
 ## 10.BOTTOM NAVIGATION BAR [Tin tức app](https://github.com/moulsan369/62131775-AndroidProgaming/tree/main/TinTucApp/app/src/main)
 <img src="https://github.com/moulsan369/62131775-AndroidProgaming/blob/main/images/new-1.jpg" alt="new1" width="150"> <img src="https://github.com/moulsan369/62131775-AndroidProgaming/blob/main/images/new-2.jpg" alt="new2" width="150"> <img src="https://github.com/moulsan369/62131775-AndroidProgaming/blob/main/images/new-3.jpg" alt="new3" width="150">
+
+## 11. NAVIGATION DRAWER [Profile cá nhân]().
+<img src="" alt="nav-pro" width="150">
