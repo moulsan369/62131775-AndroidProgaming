@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private final BottomNavigationView.OnNavigationItemSelectedListener navListener = item -> {
-        // By using switch we can easily get 
+        // By using switch we can easily get
         // the selected fragment
         // by using there id.
         Fragment selectedFragment = null;
